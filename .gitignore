@@ -1,0 +1,58 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+build/
+dist/
+_build_check/
+*.egg-info/
+*.whl
+
+# External data and generated training artifacts
+data/raw/
+data/processed/
+runs/
+outputs/
+checkpoints/
+datasets/
+*.pt
+*.pth
+*.ckpt
+*.csv
+*.vtu
+*.dat
+*.su2
+
+# Logs and generated reports
+*.log
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.out
+
+# MATLAB generated files
+*.fig
+*.mat
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Legacy Stage-1 modules and tests retained only in the local workspace.
+# They are outside the public KD Cp release.
+kdmfpnet/kdmfpnet/data.py
+kdmfpnet/kdmfpnet/evaluate.py
+kdmfpnet/kdmfpnet/pressure_data.py
+kdmfpnet/kdmfpnet/pressure_evaluate.py
+kdmfpnet/kdmfpnet/pressure_train.py
+kdmfpnet/kdmfpnet/train.py
+kdmfpnet/tests/test_model.py
+kdmfpnet/tests/test_pressure_model.py
+kdmfpnet/tests/test_pressure_loss.py
